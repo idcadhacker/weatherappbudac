@@ -1,51 +1,50 @@
-
 .App {
-  
   text-align: center;
-
   min-height: 100vh;
-
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
-
   justify-content: flex-start;
-
   font-size: calc(10px + 2vmin);
-
-  color: rgb(255, 255, 255);
-
-  background-color: #282c34;
-
+  color: #4a4a4a;
+  background-color: #C9D7DD;
 }
- 
+
 .App-header {
-
-  background-color: #20232a;
-
+  background-color: #8CB9BD;
   padding: 20px;
-
   width: 100%;
-
   color: white;
-
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
- 
+
 main {
   flex: 1;
-
   padding: 20px;
-
   width: 100%;
-
   max-width: 960px; 
-
   margin: auto;
-
 }
+
 h4 {
   text-decoration: underline;
+}
 
+
+.weather-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-left: 28%;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.weather-container h2 {
+  margin-top: 0;
+  color: black; 
+}
+p {
+  color: black;
 }
